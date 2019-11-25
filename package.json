@@ -8,6 +8,6 @@
     "start": "docsify serve ./docs"
   },
   "devDependencies": {
-    "docsify-cli": "^4.3.0"
+    "docsify-cli": "^4.9.4"
   }
 }

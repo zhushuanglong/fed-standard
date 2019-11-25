@@ -1,62 +1,14 @@
 <!--
- * @Author: your name
+ * @Author: yunfan
  * @Date: 2019-11-21 15:23:52
- * @LastEditTime: 2019-11-21 17:41:32
+ * @LastEditTime: 2019-11-22 09:52:57
  * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @Description: 参考https://juejin.im/post/5ada9b586fb9a07aaf34c746
  * @FilePath: /Tsign/fed-standard/docs/vue.md
  -->
 # Vue 编码规范
 
 Vue前端开发规范，基于Vue官方风格指南整理
-
-参考本当：https://juejin.im/post/5ada9b586fb9a07aaf34c746
-
-## vscode配置
-推荐的vscode配置
-```
-{
-  "editor.tabSize": 2,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.iconTheme": "vscode-icons",
-  // 以下为stylus配置
-  "stylusSupremacy.insertColons": false, // 是否插入冒号
-  "stylusSupremacy.insertSemicolons": false, // 是否插入分好
-  "stylusSupremacy.insertBraces": false, // 是否插入大括号
-  "stylusSupremacy.insertNewLineAroundImports": false, // import之后是否换行
-  "stylusSupremacy.insertNewLineAroundBlocks": false, // 两个选择器中是否换行
-  "vetur.format.defaultFormatter.html": "js-beautify-html",
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    "javascript",
-    {
-      "language": "html",
-      "autoFix": true
-    },
-    {
-      "language": "vue",
-      "autoFix": true
-    },
-    "javascriptreact",
-    "html",
-    "vue"
-  ],
-  "eslint.options": { "plugins": ["html"] },
-  "prettier.singleQuote": true,
-  "prettier.semi": false,
-  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
-  "vetur.format.js.InsertSpaceBeforeFunctionParenthesis": false,
-  "vetur.format.defaultFormatter.js": "prettier",
-  // "prettier.eslintIntegration": true
-}
-```
-
-插件
-- Auto Close Tag
-- Path Intellisense
-- Prettier
-- Vetur
-- vscode-icons
 
 
 ## 组件数据

@@ -22,21 +22,26 @@ analyData = 'someThing'; // .....
 analyzeData = 'Nerf this';
 ```
 
+## 项目
+
+项目名全部使用小写, 单词间使用中划线分隔 `my-project`
+
 ## 文件名
 
-### `export default`出的公共方法
+文件夹名全部小写, 单词间用中划线分隔
 
-Camel Case，小驼峰。保证文件与默认导出的函数名一致
+## 普通js文件名
+
+使用lowerCamelCase `httpClient.js`
 
 ### React 组件
 
-Pascal Case 大驼峰。保证与文件的默认导出名一致。因为 React 的组件名必须大写。所以文件名用大驼峰。
+Pascal Case 大驼峰 Modal.jsx
 
-并且，使用 jsx 而不是 js 作为文件名。这样能让人一看就知道是组件。
 
 ### Vue 组件
 
-Pascal Case 大驼峰。Vue 的组件最后默认导出的是一个单例，按照惯例，单例对象是需要大写的。因此使用大驼峰
+Pascal Case 大驼峰 Modal.vue
 
 ### 样式文件
 
