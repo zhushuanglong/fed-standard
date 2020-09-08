@@ -204,8 +204,12 @@ components/
 // bad
 <mycomponent/>
 
-// good
+// good element框架 
+<el-button/>
+
+// good 自己写的组件
 <MyComponent/>
+
 ```
 
 ## 完整单词的组件名
